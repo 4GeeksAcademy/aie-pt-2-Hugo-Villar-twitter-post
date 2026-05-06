@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Post - Hugo Villar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="main-navbar" aria-label="Navegacion principal">
+      <div class="nav-brand">Twitter Post</div>
+      <ul class="nav-links">
+        <li><button type="button">Inicio</button></li>
+        <li><button type="button">Mis tweets</button></li>
+        <li class="profile-menu">
+          <details>
+            <summary>Mi perfil <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></summary>
+            <div class="dropdown-panel">
+              <button type="button">Configuracion</button>
+              <button type="button">Cerrar sesion</button>
+            </div>
+          </details>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="page-wrap">
+      <article class="tweet-card">
+        <header class="tweet-header">
+          <div class="user-avatar" aria-hidden="true">
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="user-info">
+            <p class="display-name">
+              Hugo Villar
+              <i class="fa-solid fa-circle-check verified-badge" aria-label="Verificado"></i>
+            </p>
+            <p class="username">@HugoVillar</p>
+          </div>
+
+          <button class="follow-btn" type="button">Follow</button>
+        </header>
+
+        <p class="tweet-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+          <span class="tweet-hashtag">#MiPrimeraPracticaConIA</span>
+        </p>
+
+        <img
+          class="tweet-image"
+          src="https://wallpapers.com/images/featured/logo-de-one-piece-e6aw12asz5hmkzi5.jpg"
+          alt="Logo de One Piece"
+        />
+
+        <p class="tweet-date">4:17 PM - 31 May 2018</p>
+
+        <section class="tweet-stats" aria-label="Estadisticas del tweet">
+          <p><strong>234</strong> Retweets</p>
+          <p><strong>4170</strong> Likes</p>
+        </section>
+
+        <footer class="tweet-actions" aria-label="Acciones del tweet">
+          <button type="button" aria-label="Me gusta">
+            <i class="fa-solid fa-heart"></i>
+          </button>
+          <button type="button" aria-label="Retweet">
+            <i class="fa-solid fa-retweet"></i>
+          </button>
+          <button type="button" aria-label="Compartir">
+            <i class="fa-solid fa-share"></i>
+          </button>
+        </footer>
+      </article>
+    </main>
+
+    <footer class="site-footer" aria-label="Footer de contacto">
+      <div class="footer-grid">
+        <section class="footer-block footer-brand-block">
+          <h3>LOREM IPSUM</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Praesent vulputate
+            ligula a metus placerat, vel mattis lorem viverra.
+          </p>
+        </section>
+
+        <section class="footer-block">
+          <h4>Company</h4>
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Team</li>
+            <li>Blog</li>
+          </ul>
+        </section>
+
+        <section class="footer-block">
+          <h4>Support</h4>
+          <ul>
+            <li>Help Center</li>
+            <li>Privacy Policy</li>
+            <li>Terms</li>
+            <li>FAQ</li>
+          </ul>
+        </section>
+
+        <section class="footer-block contact-block">
+          <h4>Contact us</h4>
+          <ul>
+            <li><i class="fa-solid fa-phone"></i> 654-321-234</li>
+            <li><i class="fa-solid fa-envelope"></i> lorem@ipsum.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> Lorem Ipsum, 37, 4D</li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
